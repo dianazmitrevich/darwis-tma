@@ -1,0 +1,101 @@
+.raffle_item {
+    border-radius: 30px;
+    background: #fff;
+
+    .wrap {
+        padding: 19px 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: relative;
+
+        .img {
+            width: 60px;
+            height: 60px;
+            background: #cccccc;
+            border-radius: 15px;
+            position: relative;
+
+            .tries_left {
+                position: absolute;
+                width: 100%;
+                z-index: 2;
+                left: 0;
+                bottom: 0;
+                background: #1f41f4;
+                border-radius: 12.5px 12.5px 0 0;
+                color: #fff;
+                padding: 3px 0 5px;
+                display: flex;
+                align-items: center;
+                gap: 1.63px;
+                justify-content: center;
+                font-size: 9px;
+            }
+        }
+
+        .text_wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .channel_name {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            span {
+                color: #9fa0ae;
+                font-weight: 700;
+                font-size: 12px;
+            }
+        }
+
+        .raffle_name {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .raffle_btn {
+            position: absolute;
+            background: #1f41f4;
+            right: 0;
+            bottom: 0;
+            border-radius: 55px 0 45px 17px;
+            width: 67px;
+            height: 45px;
+
+            svg {
+                position: absolute;
+                right: 24px;
+                bottom: 10px;
+            }
+        }
+
+        .time_left {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #7a7a7a;
+            font-size: 9px;
+            position: absolute;
+            top: 9px;
+            right: 26px;
+        }
+    }
+
+    &.transparent {
+        background: rgba($color: #1f41f4, $alpha: 0.1);
+        border: 1px solid #1f41f4;
+    }
+
+    &.pink {
+        background: rgba($color: #cb009d, $alpha: 0.1);
+        border-color: #cb009d;
+
+        .raffle_btn {
+            background: #cb009d;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.channel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+
+    .desc {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background: #c4c4c4;
+    }
+
+    .name {
+        font-size: 24px;
+        font-weight: 700;
+        margin: 8px 0;
+    }
+
+    .username {
+        font-size: 13px;
+        font-weight: 300;
+    }
+}

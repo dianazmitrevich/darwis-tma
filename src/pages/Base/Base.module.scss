@@ -1,3 +1,28 @@
+html {
+    background: #0d0d1b;
+}
+
+body {
+    overflow: hidden;
+}
+
 .container {
-    padding: 0 20px;
+    width: 100%;
+    max-width: 550px;
+    padding: 0 24px;
+    height: 100svh;
+    overflow: hidden auto;
+    position: relative;
+    background-image: url(../../assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    .body {
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -12,5 +12,5 @@ declare global {
 export const useTelegram = () => {
     const tg = window.Telegram.WebApp;
 
-    return tg;
+    return { tg };
 };

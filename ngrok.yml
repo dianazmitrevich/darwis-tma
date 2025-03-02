@@ -1,0 +1,8 @@
+version: "2"
+
+authtoken: 2tarkRBWhPJvz6KlPsF5ZPxTzuB_3T11EEnLBuJ57aodj7vWx
+
+tunnels:
+    web:
+        addr: 5173
+        proto: http

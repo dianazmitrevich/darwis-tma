@@ -1,0 +1,15 @@
+.swiper {
+    overflow: visible !important;
+
+    .swiper-pagination {
+        bottom: -31px !important;
+    }
+
+    .swiper-pagination-bullet {
+        background: #898989;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #1f41f4;
+    }
+}
